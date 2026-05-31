@@ -7,6 +7,7 @@ import Counter from './Counter/counter'
 import TextToggle from './TextToggle/textToggle'
 import ColorSwitcher from './ColorSwitcher/ColorSwitcher'
 import CountTimeout from './CountTimeout/CountTimeout'
+import Log from './Log/Log'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
       <br /> <br />
       <p>use state 2</p>
       <CountTimeout/>
+      <br /> <br />
+      <Log/>
 
     </>
   )
